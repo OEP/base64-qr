@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+<Spinner android:layout_height="wrap_content" android:id="@+id/spinner_selectSource" android:prompt="@string/prompt_selectDataSource" android:entries="@array/list_dataSources" android:layout_width="fill_parent"></Spinner><LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/container_imageInput" android:orientation="horizontal"><EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/main_selectedImage" android:hint="@string/hint_noImageSelected" android:lines="1"></EditText><Button android:layout_height="wrap_content" android:id="@+id/main_pickImageButton" android:text="@string/label_choose" android:layout_gravity="center_horizontal" android:onClick="doPickImage" android:layout_width="wrap_content"></Button>
+
+</LinearLayout>
+<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/container_plaintextInput" android:layout_weight="0"><EditText android:layout_width="fill_parent" android:hint="@string/hint_plaintextField" android:id="@+id/main_plaintextField" android:layout_weight="1" android:layout_height="fill_parent"></EditText>
+</LinearLayout>
+
+<EditText android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent" android:hint="@string/hint_base64Field" android:id="@+id/main_base64Field"></EditText><LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/container_actionBar">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/main_encodeButton" android:text="@string/label_encode" android:layout_weight="1" android:onClick="doEncode"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/main_decodeButton" android:text="@string/label_decode" android:layout_weight="1" android:onClick="doDecode"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/main_scanButton" android:onClick="doScan" android:text="@string/label_scan"></Button></LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

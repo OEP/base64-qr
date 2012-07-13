@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Base64!</string>
+    <string name="app_name">Base64 Utility</string>
+    
+    <array name="list_dataSources">
+    	<item>@string/type_text</item>
+    	<item>@string/type_image</item>
+    </array>
+    
+    <string name='label_encode'>Encode</string>
+    <string name='label_decode'>Decode</string>
+    <string name='label_choose'>Choose</string>
+    <string name='label_scan'>Scan</string>
+    <string name='label_ok'>OK</string>
+    <string name='label_yes'>Yes</string>
+    <string name='label_no'>No</string>
+    
+    <string name='menu_share'>Share</string>
+    <string name='menu_barcode'>Show barcode</string>
+    
+    <string name='type_image'>Image data</string>
+    <string name='type_text'>Text data</string>
+    
+    <string name='hint_plaintextField'>Input text...</string>
+    <string name='hint_noImageSelected'>No image selected</string>
+    <string name='hint_base64Field'>Base64 input/output</string>
+    
+    <string name='prompt_selectDataSource'>Select data source</string>
+    
+
+    <string name='title_pleaseWait'>Please Wait</string>
+    <string name='title_emptyField'>Empty Field</string>
+    <string name='title_chooseImage'>Image Picker</string>
+    <string name='title_shareVia'>Share via</string>
+    <string name='title_dependencyNeeded'>Dependency needed</string>
+    
+    <string name='msg_compressingImage'>Combobulating image...</string>
+    <string name='msg_encodingImage'>Zorging...</string>
+    <string name='msg_emptyTextInput'>Input the text data you wish to encode.</string>
+    <string name='msg_errorPrefix'>Error: %s</string>
+    <string name='msg_working'>Working...</string>
+    <string name='msg_dependencyNeeded'>This action requires Barcode Scanner, a QR code scanner and generator. Install it?</string>
+</resources>
